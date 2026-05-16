@@ -1,6 +1,174 @@
-header{
-    background-color: green;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
-ul{
+body{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+
+#heading{
+    background-color: red;
+    margin: auto;
+}
+
+/* start navigation section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.nav-list{
+display:flex;
+list-style: none;
+color: white;
+padding: 10px;
+}
+
+.nav-list li{
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+
+/* End navigation section */
+
+/* Start hero setion */
+
+.hero{
+    text-align: center;
+   margin: 30px;
+   padding: 60px 5px;
+   margin: auto;
+   
+}
+
+.hero p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero_link{
+    margin-top: 25px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+/* End hero section */
+
+
+/* Start main-section */
+.main-section{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    
+
+}
+
+.main-section,.article-one,.article-two,.article-three,h3,p {
+     text-align: center;
+     margin: 20px; 
+
+
+}
+
+.article-one button{
+     border:solid black 1px ;
+     padding: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px; 
+    background-color: red;
+}
+
+
+.article-two button {
+      border:solid black 1px ;
+      padding: 15px;
+      background-color: red;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;  
+
+}
+
+
+.article-three button{
+     border:solid black 1px ;
+     padding: 15px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.article-five{
+    text-align: center;
+}
+
+form{
+width: 100%;
+
+}
+
+.article-five label{
+font-size: 30px;
+
+}
+
+.article-five input{
+    font-size: 30px;
+}
+
+.article-five,h3{
+    font-size: 40px;
+
+}
+
+.article-five button{
+border: solid black 1px;
+padding: 15px;
+font-size: 30px;
+background-color: red;
+color: white;
+margin: 30px;
+}
+
+footer{
+    font-size: 50px;
+    background-color: red;
+    width: 100%;
+    color: white;
+    padding: 10px;
+
+}
+
+
+
+
+/* Responsive Media Query */
+
+@media( max-width:490px ) and (max-width:  ){
+    #heading{
+        background-color: blue;
+    }
     
 }
+
+
+
